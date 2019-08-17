@@ -1,0 +1,97 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/SitePages/Test-extension.aspx",
+      "customActions": {
+        "675e987e-42e1-4e2a-97ca-66c9613d65fe": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "favicons": [
+              {
+                "rel": "shortcut icon",
+                "href": "https://example.com/myicon.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/vnd.microsoft.icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/x-icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/gif",
+                "href": "https://example.com/image.gif"
+              },
+              {
+                "rel": "icon",
+                "type": "image/png",
+                "href": "https://example.com/image.png"
+              },
+              {
+                "rel": "icon",
+                "type": "image/svg+xml",
+                "href": "https://example.com/image.svg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "faviconCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/SitePages/Test-extension.aspx",
+      "customActions": {
+        "675e987e-42e1-4e2a-97ca-66c9613d65fe": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "favicons": [
+              {
+                "rel": "shortcut icon",
+                "href": "https://example.com/myicon.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/vnd.microsoft.icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/x-icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "href": "https://example.com/image.ico"
+              },
+              {
+                "rel": "icon",
+                "type": "image/gif",
+                "href": "https://example.com/image.gif"
+              },
+              {
+                "rel": "icon",
+                "type": "image/png",
+                "href": "https://example.com/image.png"
+              },
+              {
+                "rel": "icon",
+                "type": "image/svg+xml",
+                "href": "https://example.com/image.svg"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

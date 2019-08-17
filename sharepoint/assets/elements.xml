@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="FaviconCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="675e987e-42e1-4e2a-97ca-66c9613d65fe"
+        ClientSideComponentProperties="{&quot;favicons&quot;: [{&quot;rel&quot;:&quot;apple-touch-icon-precomposed&quot;,&quot;href&quot;:&quot;urltofavicon.com&quot; }]}">
+    </CustomAction>
+</Elements>

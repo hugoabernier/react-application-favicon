@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="FaviconCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="675e987e-42e1-4e2a-97ca-66c9613d65fe"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
